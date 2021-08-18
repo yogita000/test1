@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 70px;
+}
+.maindiv {
+  /* background: red; */
+  height: 50vh;
+  width: 50vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  margin: auto;
+}
+/* .rectangle {
+} */
+
+button {
+  padding: 12px 20px;
+  background: red;
+  color: #fff;
+  border: 2px solid rgb(192, 155, 155);
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+  margin-top: 20px;
+}
+
+.div2 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  margin-top: 30px;
+  padding: 12px 20px;
+  color: rgb(5, 88, 88);
+  text-transform: uppercase;
+  font-size: large;
+}
